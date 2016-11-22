@@ -22,16 +22,16 @@ class Topbar extends Component {
                     data: { name: this.signupName, pass: this.signupPassword, email: this.signupEmail, num: this.signupMobile }
                 })
                 .done(data => {
-                    $.notify("A new user is created with mongodb :)", "sucess");
+                    $.notify("Thank You for Signing up :)", "sucess");
                 })
                 .fail(jqXhr => {
-                    $.notify("Please Provide the correct data to signup :)", "error");
+                    $.notify("Please provide correct details :)", "error");
                 });
         }
     }
     userSignInHandle() {
         if (!this.signinEmail || !this.signinPassword) {
-            $.notify("Please fill all the fields please :)", "error");
+            $.notify("Kindly complete all fields :)", "error");
         } else {
             // $.notify("mongodb is not working now :)", "error");
             $.ajax({
@@ -49,7 +49,7 @@ class Topbar extends Component {
                         name:data.username
                       }
                     });
-                    $.notify("I am login with mongodb :)", "sucess");
+                    $.notify("You are logged in :)", "sucess");
                 })
                 .fail(jqXhr => {
                     $.notify("Please Provide the correct username && password :)", "error");
