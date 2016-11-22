@@ -121,7 +121,7 @@ export default class extends Component {
                                             style={{width:'100%'}}
                                             onClick={this._handleButtonClick.bind(this, 'dhtoperatorAdd' , 'DHT Operator')}
                                             href="#modal3">
-                                            Add Saved DHT Operator
+                                            Add DHT Operator
                                         </a>
                                     <br />
                                         <a
@@ -129,7 +129,7 @@ export default class extends Component {
                                              style={{width:'100%'}}
                                             onClick={this._handleButtonClick.bind(this, 'mobileoperatorAdd' , 'Mobile Operator')}
                                             href="#modal3">
-                                            Add Saved Mobile Operator
+                                            Add Mobile Operator
                                         </a>
                                         <br />
                                         <a
@@ -137,7 +137,7 @@ export default class extends Component {
                                             style={{width:'100%'}}
                                             onClick={this._handleButtonClick.bind(this, 'mobilecircleAdd', 'Mobile Circle')}
                                             href="#modal3">
-                                            Add Saved Mobile Circle
+                                            Add Mobile Circle
                                         </a>
                                         <br />
 
@@ -146,7 +146,7 @@ export default class extends Component {
                                             style={{width:'100%'}}
                                             onClick={this._handleButtonClick.bind(this, 'PakagesAdd', 'Offer Pakages')}
                                             href="#modal4">
-                                            Add Pakages
+                                            Add Packages
                                         </a>
                                         <br />
 
@@ -159,19 +159,19 @@ export default class extends Component {
                                             className="waves-effect waves-light btn black"
                                             style={{width:'100%'}}
                                             onClick={this._handleShowButtonClick.bind(this, 'getAlldht', 'DHT')} >
-                                            Show Saved DHT Operator
+                                            Show DHT Operator
                                         </a>
                                         <a
                                             className="waves-effect waves-light btn black"
                                             style={{width:'100%'}}
                                             onClick={this._handleShowButtonClick.bind(this, 'getAllmobile', 'MOP')}>
-                                            Show Saved Mobile Operator
+                                            Show Mobile Operator
                                         </a>
                                         <a
                                             className="waves-effect waves-light btn black"
                                             style={{width:'100%'}}
                                             onClick={this._handleShowButtonClick.bind(this, 'getAllcircles','MC')}>
-                                            Show Saved Mobile Circle
+                                            Show Mobile Circle
                                         </a>
                                         <a
                                             className="waves-effect waves-light btn black"
@@ -183,7 +183,7 @@ export default class extends Component {
                                             className="waves-effect waves-light btn black"
                                             style={{width:'100%'}}
                                             onClick={this._handleShowButtonClick.bind(this, 'getAllpakages','PD')}>
-                                            Show All Pakages
+                                            Show All Packages
                                         </a>
                                     </div>
                                   </li>
